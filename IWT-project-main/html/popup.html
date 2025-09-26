@@ -1,0 +1,74 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+      submit
+    </title>
+  <body>
+      <link href="../css/popup.css" rel="stylesheet" >
+    </head>
+      
+<div class="container">
+<button type="submit" class="btn" onclick="openpopup()">Proceed to checkout</button>
+<div class="popup" id="popup">
+<img src="../images/404-tick.png" >
+<h2>Thank You!</h2>
+<p>Your details has been successfully submited.Thanks! </p>
+<button type="button" onclick="closepopup()">OK</button>
+
+</div>
+</div>
+
+<script>
+  let popup=document.getElementById("popup");
+
+  function openpopup(){
+    popup.classList.add("open-popup");
+  }
+  
+  function closepopup(){
+    popup.classList.remove("open-popup");
+  }
+  
+</script>
+       </body>
+       </html>
+  
+    <!-- <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'
+      rel="stylesheet"/>
+     <link href="../css/popup.css" rel="stylesheet" />
+    <title>popup2</title>
+  </head>
+  <body>
+   
+    <a href="#" class="trigger_popup" id="success_trigger">Success</a>
+    <div class="popup" id="success">
+      <div class="popup-content">
+        <div class="imgbox">
+          <img src="../images/checked.png">
+     
+        </div>
+
+        <div class="title">
+          <h3>Success!</h3>
+        </div>
+         <p class="para">Your account has been created successfully</p>
+        <form action="">
+          <a href="#" class="button" id="s_button">OKAY</a>
+        </form>
+      </div>
+    </div>
+
+        </form>
+      </div>
+    </div>
+    <script>//javascript alert box
+      alert("Click on 'Success'...");
+      </script>
+    <script src="../js/popup.js"></script> 
+   
+  </body>
+   
+</html> -->
